@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 21</title>
+    <link rel="icon" href="https://img.icons8.com/color/48/html-5--v1.png" type="image/png">
+</head>
+<body>
+    <h1>Napak Tilas</h1>
+    <form action="post">
+        <fieldset>
+            <legend>Form</legend>
+    <table style="text-align: left;">
+        <table style="text-align: left;">
+            <tr>
+                <td><label for="nama">Nama Lengkap </label></td>
+                <td>:</td>
+                <td><input type="text" id="nama" name="nama" placeholder="Nama Lengkap" required></td>
+            </tr>
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td>:</td>
+                <td><input type="text" id="username" name="username" placeholder="Username" required></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email </label></td>
+                <td>:</td>
+                <td><input type="email" id="email" name="email" placeholder="Email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password </label></td>
+                <td>:</td>
+                <td><input type="password" id="password" name="password" placeholder="Password" required></td>
+            </tr>
+            <tr>
+                <td><label for="alamat web">Alamat Web </label></td>
+                <td>:</td>
+                <td><input type="text" id="alamat web" name="alamat web" placeholder="Alamat Web" required></td>
+            </tr>
+            <tr>
+                <td><label for="Tanggal Lahir">Tanggal Lahir </label></td>
+                <td>:</td>
+                <td><input type="date" id="Tgl Lahir" name="Tgl Lahir" placeholder="Tgl Lahir" required></td>
+            </tr>
+            <tr>
+                <td><label for="Umur">Umur </label></td>
+                <td>:</td>
+                <td><input type="number" id="Umur" name="Umur" placeholder="Umur" required></td>
+            </tr>
+            <tr>
+                <td><label for="Jenis Kelamin">Jenis Kelamin </label></td>
+                <td>:</td>
+                <td>
+                    <label><input type="radio" name="jenis_kelamin" value="laki-laki" required>Laki Laki</label>
+                    <label><input type="radio" name="jenis_kelamin" value="perempuan" required>Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Agama">Agama </label></td>
+                <td>:</td>
+                <td>
+                    <select id="agama" name="agama" required>
+                        <option value="islam">islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Khonhucu">Khonhucu</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Katolik">Katolil</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Alamat">Alamat </label></td>
+                <td>:</td>
+                <td><textarea rows="4" cols="16" maxlength="30" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="Foto">Foto </label></td>
+                <td>:</td>
+                <td><img src="logo1.jpg" alt="Foto gagal" width="15%" height="15%"></td>
+            </tr>
+            <tr>
+                <td><label for="lagu">lagu </label></td>
+                <td>:</td>
+                <td>
+                    <audio controls autoplay>
+                        <source src="sample.mp3"  type="audio/mp3">
+                    </audio>
+                </td>
+            </tr>
+        </table>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
